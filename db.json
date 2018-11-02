@@ -1,0 +1,160 @@
+{
+  "monolith": [
+    {
+      "id": 1,
+      "name": "Alfred",
+      "favoritePups": [
+        {
+          "image": "./assets/charles-deluvio-451760-unsplash.jpg",
+          "name": "Derek",
+          "id": "a"
+        },
+        {
+          "image": "./assets/charles-deluvio-540420-unsplash.jpg",
+          "name": "Charli",
+          "id": "b"
+        },
+        {
+          "image": "./assets/connor-peters-1081698-unsplash.jpg",
+          "name": "Summer",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Betty",
+      "favoritePups": [
+        {
+          "image": "./assets/elijah-m-henderson-460428-unsplash.jpg",
+          "name": "Starla",
+          "id": "d"
+        },
+        {
+          "image": "./assets/jc-gellidon-714673-unsplash.jpg",
+          "name": "Alfred",
+          "id": "e"
+        },
+        {
+          "image": "./assets/joe-caione-781415-unsplash.jpg",
+          "name": "Juan",
+          "id": "f"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "C3PO",
+      "favoritePups": [
+        {
+          "image": "./assets/josh-bean-591099-unsplash.jpg",
+          "name": "Elli",
+          "id": "g"
+        },
+        {
+          "image": "./assets/matthew-henry-58760-unsplash.jpg",
+          "name": "Jill",
+          "id": "h"
+        },
+        {
+          "image": "./assets/roberto-nickson-g-555354-unsplash.jpg",
+          "name": "Max",
+          "id": "i"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alfred",
+      "favoritePups": ["a", "b", "c"]
+    },
+    {
+      "id": 2,
+      "name": "Betty",
+      "favoritePups": ["d", "e", "f"]
+    },
+    {
+      "id": 3,
+      "name": "C3PO",
+      "favoritePups": ["g", "h", "i"]
+    }
+  ],
+  "pups": [
+    {
+      "image": "./assets/charles-deluvio-451760-unsplash.jpg",
+      "name": "Derek",
+      "id": "a"
+    },
+    {
+      "image": "./assets/charles-deluvio-540420-unsplash.jpg",
+      "name": "Charli",
+      "id": "b"
+    },
+    {
+      "image": "./assets/connor-peters-1081698-unsplash.jpg",
+      "name": "Summer",
+      "id": "c"
+    },
+    {
+      "image": "./assets/elijah-m-henderson-460428-unsplash.jpg",
+      "name": "Starla",
+      "id": "d"
+    },
+    {
+      "image": "./assets/jc-gellidon-714673-unsplash.jpg",
+      "name": "Alfred",
+      "id": "e"
+    },
+    {
+      "image": "./assets/joe-caione-781415-unsplash.jpg",
+      "name": "Juan",
+      "id": "f"
+    },
+    {
+      "image": "./assets/josh-bean-591099-unsplash.jpg",
+      "name": "Elli",
+      "id": "g"
+    },
+    {
+      "image": "./assets/matthew-henry-58760-unsplash.jpg",
+      "name": "Jill",
+      "id": "h"
+    },
+    {
+      "image": "./assets/roberto-nickson-g-555354-unsplash.jpg",
+      "name": "Max",
+      "id": "i"
+    }
+  ],
+  "goodDogs": [
+    {
+      "image": "./assets/charles-deluvio-451760-unsplash.jpg",
+      "name": "Derek",
+      "id": "a"
+    },
+    {
+      "image": "./assets/charles-deluvio-540420-unsplash.jpg",
+      "name": "Charli",
+      "id": "b"
+    },
+    {
+      "image": "./assets/connor-peters-1081698-unsplash.jpg",
+      "name": "Summer",
+      "id": "c"
+    }
+  ],
+  "badDogs": [
+    {
+      "image": "./assets/josh-bean-591099-unsplash.jpg",
+      "name": "Elli",
+      "id": "g"
+    },
+    {
+      "image": "./assets/matthew-henry-58760-unsplash.jpg",
+      "name": "Jill",
+      "id": "h"
+    }
+  ]
+}

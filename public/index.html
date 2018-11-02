@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="./style.css">
+  <title>Asyncronous JavaScript: From Callbacks to Async/Await</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Asyncronous JavaScript: From Callbacks to Async/Await</h1>
+  </header>
+
+  <main>
+    <ul>
+      <li><a href="./1.html">Exercise 1</a></li>
+      <li><a href="./2.html">Exercise 2</a></li>
+      <li><a href="./3.html">Exercise 3</a></li>
+      <li><a href="./4.html">Exercise 4</a></li>
+      <li><a href="./5.html">Exercise 5</a></li>
+      <li><a href="./6.html">Exercise 6</a></li>
+      <li><a href="./7.html">Exercise 7</a></li>
+      <li><a href="./8.html">Exercise 8</a></li>
+      <li><a href="./9.html">Exercise 9</a></li>
+      <li><a href="./10.html">Exercise 10</a></li>
+      <li><a href="./11.html">Exercise 11</a></li>
+      <li><a href="./12.html">Exercise 12</a></li>
+    </ul>
+  </main>
+
+  <script>
+    // var getUsers = new XMLHttpRequest();
+    // getUsers.open('GET', 'http://localhost:3000/users');
+    // getUsers.send();
+
+    // getUsers.addEventListener('load', function(event) {
+    //   var users = JSON.parse(event.target.response);
+    //   var usersList = document.getElementById('users');
+
+    //   users.forEach(function(user) {
+    //     var userListItem = document.createElement('li');
+    //     userListItem.innerText = user.name;
+
+    //     userListItem.addEventListener('click', function() {
+    //       var favePups = document.querySelector('.images');
+    //       favePups.innerHTML = '';
+
+    //       user.favoritePups.forEach(function(pup) {
+    //         const image = document.createElement('img');
+    //         image.src = pup.url;
+    //         image.innerText = pup.name;
+    //         favePups.appendChild(image);
+    //       });
+    //     });
+
+    //     usersList.appendChild(userListItem);
+    //   });
+    // });
+
+
+/////////
+
+
+    // fetch('http://localhost:3000/users')
+    // .then(response => {
+    //   return response.json();
+    // })
+    // .then(data => {
+    //   console.log(data);
+    // })
+    // .catch(e => {
+    //   console.log(e);
+    // });
+
+/////////
+
+    // const x = () => fetch('http://localhost:3000/users')
+    // .then(response => {
+    //   return response.json();
+    // })
+    // .then(data => {
+    //   console.log(data);
+    // })
+    // .then(() => {
+    //   x();
+    // })
+    // .catch(e => {
+    //   console.log(e);
+    // });
+
+    // x();
+
+      // notice the 304
+
+
+    // const x = () => {
+    //   fetch('http://localhost:3000/users', {cache: 'no-store'})
+    //   .then(response => {
+    //     return response.json();
+    //   })
+    //   .then(data => {
+    //     console.log(data);
+    //   })
+    //   .then(() => {
+    //     x();
+    //   })
+    //   .catch(e => {
+    //     console.log(e);
+    //   });
+    // }
+
+    // x();
+
+////////
+
+
+  // fetch('http://localhost:3000/users')
+  // .then(response => {
+  //   return response.json();
+  // })
+  // .then(data => {
+  //   updateUsersView(data);
+  // });
+
+  // const updateUsersView = (data) => {
+  //   var usersList = document.getElementById('users');
+
+  //   data.forEach(addUserToList(usersList));
+  // }
+
+  // const addUserToList = (list) => (user) => {
+  //   var userListItem = document.createElement('li')
+  //   userListItem.innerText = user.name;
+
+  //   userListItem.addEventListener('click', refreshImagesContainer(document.querySelector('.images'), user));
+  //   list.appendChild(userListItem);
+  // }
+
+  // const refreshImagesContainer = (container, user) => () => {
+  //   container.innerHTML = '';
+
+  //   user.favoritePups.forEach(imageMetadata => addImageToContainer(container, imageMetadata));
+  // }
+
+  // const addImageToContainer = (container, imageMetadata) => {
+  //   const image = document.createElement('img');
+  //   image.src = imageMetadata.url;
+  //   image.innerText = imageMetadata.name;
+  //   container.appendChild(image);
+  // };
+
+  ////
+
+  // const fetchJson = (url) => () => fetch(url).then(data => data.json());
+  // const getUsers = fetchJson('http://localhost:3000/users');
+  // const getPups = fetchJson('http://localhost:3000/pups');
+  // const getKittehs = fetchJson('http://localhost:3000/kittehs');
+
+  // Promise.resolve()
+  // .then(() => {
+  //   return Promise.all([getUsers(), getPups(), getKittehs()]);
+  // })
+  // .then(data => {
+  //   console.log(data);
+  // })
+
+  </script>
+</body>
+</html>

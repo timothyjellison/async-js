@@ -1,0 +1,51 @@
+:root {
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #ddd;
+    padding: 1em;
+}
+
+main {
+    padding: 1em;
+}
+
+button {
+    font-size: 1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+}
+
+footer, footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline
+}
+
+footer li:not(:last-of-type)::after {
+    content: " - "
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
